@@ -28,6 +28,6 @@ urlpatterns = [
     path('model1/', include('core.model1.urls')),
     path('reports/', include('core.reports.urls')),
     path('user/', include('core.user.urls')),
-]
+] + static(settings.STATIC_URL, document_root=setting.STATIC_ROOT)
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

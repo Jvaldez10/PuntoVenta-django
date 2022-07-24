@@ -9,7 +9,7 @@ SQLITE = {
     }
 }
 
-POSTGRESQL = {
+"""POSTGRESQL = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'db',
@@ -17,5 +17,16 @@ POSTGRESQL = {
         'PASSWORD': '7410',
         'HOST': 'localhost',
         'PORT': '5433',
+    }
+}"""
+
+POSTGRESQL = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd8fiien0srjalh',
+        'USER': 'odtajsgrrvlzdy',
+        'PASSWORD': 'bf4772550c41bbb0e1ca8aed36f540f487d12608e32aacce35e446b9647b9021',
+        'HOST': 'ec2-3-219-229-143.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }

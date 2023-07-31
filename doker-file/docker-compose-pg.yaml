@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:14.7-alpine
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=7410
+    ports:
+      - '5432:5432'
+    volumes: 
+      - db:/Users/user/Projects/python/PuntoVenta-django/doker-file
+volumes:
+  db:
+    driver: local

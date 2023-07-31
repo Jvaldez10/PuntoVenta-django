@@ -1,0 +1,5 @@
+__pycache__/
+#ignorar los de archivos de texto
+*.txt
+# enviroment
+venv/
